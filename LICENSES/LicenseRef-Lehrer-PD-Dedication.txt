@@ -1,0 +1,27 @@
+LicenseRef-Lehrer-PD-Dedication — Tom Lehrer's public-domain dedication
+
+Applies to: songs/song_29.txt, songs/song_30.txt, songs/song_31.txt
+
+Tom Lehrer (1928-04-09 – 2025-07-26) relinquished all copyright in the lyrics
+and music he wrote, first in a statement of October 2020 and then in a
+disclaimer dated 2022-11-26 on his website. The disclaimer says the rights
+were "permanently and irrevocably relinquished" and gives an express,
+royalty-free permission ("So help yourselves"). It covers lyrics in any
+language, translation, performance, recording and parody. Where a
+jurisdiction does not let an author abandon copyright, that permission
+operates as an irrevocable licence. The fuller wording is quoted in
+songs/song_29.rights.md (evidence:).
+
+  Dedication:     https://tomlehrersongs.com/disclaimer/
+  Archived copy:  http://web.archive.org/web/20230131061145/https://tomlehrersongs.com/disclaimer/
+                  (viewed 2026-10-14: shows the 2022-11-26 disclaimer)
+  Also archived:  Wikimedia Commons, File:Tom Lehrer song lyrics (website).pdf
+                  (the lyric sheets, retrieved from the author's site on
+                  2020-10-22, "released into the public domain by its author,
+                  Tom Lehrer and the Tom Lehrer Trust 2000"); and
+                  File:Tom Lehrer lyrics, Elements 103 to 118.pdf (the 2020
+                  addendum in song_30).
+
+No condition attaches to these texts. Attribution ("words by Tom Lehrer") is
+given as a courtesy. On song_31's authorship basis (the sheet's thanks to
+Munro Edmonson), see NOTICE.md.

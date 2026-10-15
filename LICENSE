@@ -1,0 +1,91 @@
+Song lyrics corpus — Public Release terms
+(each song text keeps its own status; nothing here adds a term to a text)
+
+Copyright (c) 2026 shani (the "Developer"), in the Developer Material only
+(Section 2, CC BY 4.0). Any right in the Developer's conversions is waived
+(Section 3, CC0 1.0).
+
+These terms govern this release (the "Release"). The machine-readable status
+of every file is in REUSE.toml, and the licence texts it names are in
+LICENSES/.
+
+1. SONG TEXTS. The lyric texts under songs/ (song_<n>.txt,
+   song_<n>.zh-hant.txt, song_<n>.translit.txt; the "Song Texts") are not the
+   Developer's work. Each keeps the status stated in its rights record
+   (songs/song_<n>.rights.md) and summarised in RIGHTS_LEDGER.md:
+
+     (a) Public-domain texts (Tier 0: song_0, 1, 3, 4, 5, 6, 8, 9, 10, 11,
+         12 and 13–28, with their .zh-hant.txt and .translit.txt witnesses).
+         The Developer claims no copyright or other right in them and grants
+         no licence, because none is needed. They are not dedicated under
+         CC0 or any other instrument, since the Developer cannot dedicate
+         works it does not own. For the Developer's own conversion layer in
+         song_13–18 and song_26–27 (.txt), see Section 3. Notes on regimes
+         outside copyright (folklore
+         laws, an edition layer) are in NOTICE.md.
+     (b) Dedicated and granted texts (Tier L: song_29, 30 and 31, by the
+         author's public-domain dedication; song_34 and 35, by the rights
+         holder's public-domain grant). No condition from this Release
+         attaches to them. Attribution is given as a courtesy. The
+         dedication and the grant are cited, with archived copies, in
+         LICENSES/ and NOTICE.md.
+     (c) Creative Commons texts (Tier L: song_32 and song_33). Licensed under
+         the Creative Commons Attribution-ShareAlike 4.0 International Public
+         License, https://creativecommons.org/licenses/by-sa/4.0/legalcode
+         (verbatim copy: LICENSES/CC-BY-SA-4.0.txt), with the attribution,
+         the source and the changes made stated in NOTICE.md. No additional
+         or different terms are imposed on them, by this file or by anything
+         else in the Release.
+
+2. DEVELOPER MATERIAL: CC BY 4.0. "Developer Material" means README.md,
+   CONTRIBUTING.md, RIGHTS_LEDGER.md, NOTICE.md, REUSE.toml, .gitattributes,
+   CITATION.cff, this LICENSE file, the three LicenseRef statements in LICENSES/
+   (LicenseRef-PublicDomain.txt, LicenseRef-Lehrer-PD-Dedication.txt,
+   LicenseRef-dotstokyo-PD-Grant.txt), the per-song rights records
+   (songs/song_<n>.rights.md), and the selection and arrangement of the
+   Release. It is licensed under the Creative Commons Attribution 4.0
+   International Public License,
+   https://creativecommons.org/licenses/by/4.0/legalcode (verbatim copy:
+   LICENSES/CC-BY-4.0.txt). Suggested attribution: "Song lyrics corpus,
+   by shani, CC BY 4.0", with a link to the Release
+   (https://github.com/shani-go/shanigo-lyrics-corpus-public).
+
+   The licence does not extend to material in those files that is not the
+   Developer's: quotations of the Song Texts, which keep their own status
+   (the passages of song_32 and song_33 quoted in their records stay under
+   CC BY-SA 4.0), and quotations of others' licence statements, grants and
+   editions, which remain their authors' words.
+
+3. CONVERSIONS: CC0 1.0 FOR THE DEVELOPER'S LAYER ONLY. The
+   simplified-character editions made by OpenCC conversion
+   (songs/song_13.txt to songs/song_18.txt) and the project's Arabic-script
+   renderings of transliterated witnesses (songs/song_26.txt and
+   songs/song_27.txt) are conversions of public-domain texts. To the extent
+   the Developer holds any copyright or related right in a conversion, the
+   Developer waives it under CC0 1.0 Universal,
+   https://creativecommons.org/publicdomain/zero/1.0/legalcode (verbatim
+   copy: LICENSES/CC0-1.0.txt). The waiver covers the Developer's
+   contribution alone. The underlying words are public domain under
+   Section 1(a), and they are not the Developer's to dedicate.
+
+   The other normalisations recorded in the records' edition: fields (line
+   breaks, stanza spacing, indentation, orthography) are mechanical and add
+   no rights claim by the Developer to any Song Text. The normalisations of
+   song_32 and song_33 are licensed under CC BY-SA 4.0, as NOTICE.md states.
+
+4. PRECEDENCE. Where these terms and a Song Text's own terms appear to
+   conflict, the Song Text's own terms govern that text. Nothing in Sections
+   2 and 3 restricts a public-domain, dedicated or granted text, or adds to
+   the CC BY-SA 4.0 terms of song_32 and song_33.
+
+5. NO WARRANTY. THE RELEASE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+   THE DEVELOPER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY ARISING FROM OR IN CONNECTION WITH THE RELEASE OR ITS USE. The
+   rights records are the Developer's good-faith determinations, not legal
+   advice. Each record carries its evidence trail so that a reader can
+   re-verify it.
+
+6. RIGHTS QUESTIONS. Write to shani, shanigo@pm.me. The Release is made
+   from the United States, on GitHub.

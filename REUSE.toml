@@ -1,0 +1,320 @@
+# Machine-readable licensing for every file (REUSE Specification 3.3,
+# https://reuse.software/spec-3.3/). The song texts carry no headers, so they
+# stay byte-for-byte the files their records describe; their status lives here.
+# The last matching annotation wins. Every annotation uses "override".
+version = 1
+
+# Developer material: CC BY 4.0. The records quote others' licence statements,
+# grants and editions, and short passages of the song texts; those quotations
+# keep their own status (LICENSE, Section 2).
+[[annotations]]
+path = ["README.md", "CONTRIBUTING.md", "RIGHTS_LEDGER.md", "NOTICE.md", ".gitattributes", "CITATION.cff", "songs/*.rights.md"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 shani"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Tier 0 song texts: public domain; the basis is the lyricist's death year or
+# anonymity, recorded in each song's record.
+# song_0
+[[annotations]]
+path = "songs/song_0.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional English folk song; words in print from 1787. Basis: songs/song_0.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_1
+[[annotations]]
+path = "songs/song_1.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): William Weston Patton (1821-1889), verses, Chicago 1861; chorus anonymous (1861). Basis: songs/song_1.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_3
+[[annotations]]
+path = "songs/song_3.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional Catalan carol; printed 1874 and earlier. Basis: songs/song_3.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_4
+[[annotations]]
+path = "songs/song_4.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional song of Mexico, with Spanish antecedents (see NOTICE.md). Basis: songs/song_4.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_5
+[[annotations]]
+path = "songs/song_5.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): José Martí (1853-1895), Versos sencillos, New York 1891. Basis: songs/song_5.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_6
+[[annotations]]
+path = "songs/song_6.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Aoki Nagayoshi (1879-1935); first printed 1921/22. Basis: songs/song_6.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_8
+[[annotations]]
+path = "songs/song_8.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional Hokkaidō folk song (min'yō). Basis: songs/song_8.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_9
+[[annotations]]
+path = "songs/song_9.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Noguchi Ujō (1882-1945); published 1923/24. Basis: songs/song_9.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_10
+[[annotations]]
+path = "songs/song_10.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): John Newton (1725-1807); Olney Hymns 1779, text as the 1840 edition. Basis: songs/song_10.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_11
+[[annotations]]
+path = "songs/song_11.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Soeda Azenbō (1872-1944); written 1904-05. Basis: songs/song_11.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_12
+[[annotations]]
+path = "songs/song_12.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Pascual Contursi (1888-1932); published 1917. Basis: songs/song_12.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_13: the traditional source edition is public domain; the simplified
+# .txt is the developer's OpenCC conversion of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_13.zh-hant.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Liu Bannong (1891-1934); 揚鞭集, 1926. Basis: songs/song_13.rights.md (traditional-character source edition, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_13.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Liu Bannong (1891-1934); 揚鞭集, 1926. Basis: songs/song_13.rights.md", "2026 shani: simplified-character edition by OpenCC conversion, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_14: the traditional source edition is public domain; the simplified
+# .txt is the developer's OpenCC conversion of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_14.zh-hant.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Li Shutong (1880-1942); printed 1927. Basis: songs/song_14.rights.md (traditional-character source edition, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_14.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Li Shutong (1880-1942); printed 1927. Basis: songs/song_14.rights.md", "2026 shani: simplified-character edition by OpenCC conversion, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_15: the traditional source edition is public domain; the simplified
+# .txt is the developer's OpenCC conversion of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_15.zh-hant.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Xu Zhimo (1897-1931); published 1925. Basis: songs/song_15.rights.md (traditional-character source edition, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_15.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Xu Zhimo (1897-1931); published 1925. Basis: songs/song_15.rights.md", "2026 shani: simplified-character edition by OpenCC conversion, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_16: the traditional source edition is public domain; the simplified
+# .txt is the developer's OpenCC conversion of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_16.zh-hant.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Qiu Jin (1875-1907); 中國女報, 1907. Basis: songs/song_16.rights.md (traditional-character source edition, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_16.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Qiu Jin (1875-1907); 中國女報, 1907. Basis: songs/song_16.rights.md", "2026 shani: simplified-character edition by OpenCC conversion, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_17: the traditional source edition is public domain; the simplified
+# .txt is the developer's OpenCC conversion of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_17.zh-hant.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional Beijing children's song; Vitale, Pekinese Rhymes, Peking 1896. Basis: songs/song_17.rights.md (traditional-character source edition, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_17.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Anonymous traditional Beijing children's song; Vitale, Pekinese Rhymes, Peking 1896. Basis: songs/song_17.rights.md", "2026 shani: simplified-character edition by OpenCC conversion, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_18: the traditional source edition is public domain; the simplified
+# .txt is the developer's OpenCC conversion of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_18.zh-hant.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional Beijing children's song; Vitale, Pekinese Rhymes, Peking 1896. Basis: songs/song_18.rights.md (traditional-character source edition, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_18.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Anonymous traditional Beijing children's song; Vitale, Pekinese Rhymes, Peking 1896. Basis: songs/song_18.rights.md", "2026 shani: simplified-character edition by OpenCC conversion, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_19
+[[annotations]]
+path = "songs/song_19.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Ahmad Shawqi (1868-1932). Basis: songs/song_19.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_20
+[[annotations]]
+path = "songs/song_20.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Abu al-Qasim al-Shabbi (1909-1934); Apollo, Cairo 1933. Basis: songs/song_20.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_21
+[[annotations]]
+path = "songs/song_21.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Abu Firas al-Hamdani (932-968). Basis: songs/song_21.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_22
+[[annotations]]
+path = "songs/song_22.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Kahlil Gibran (1883-1931); New York 1919. Basis: songs/song_22.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_23
+[[annotations]]
+path = "songs/song_23.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Ahmad Shawqi (1868-1932); first performed 1933. Basis: songs/song_23.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_24
+[[annotations]]
+path = "songs/song_24.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Qaddur al-Alami of Meknes (d. c. 1850); Sonneck, Chants arabes du Maghreb, Paris 1902. Basis: songs/song_24.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_25
+[[annotations]]
+path = "songs/song_25.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Abdullah al-Faraj (1836-1901); diwan printed Bombay 1919 (edition-layer note in NOTICE.md). Basis: songs/song_25.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# song_26: the transliterated witness is public domain; the .txt is the
+# developer's Arabic-script rendering of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_26.translit.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional Palestinian lullaby; Dalman, Palästinischer Diwan, Leipzig 1901. Basis: songs/song_26.rights.md (the collector's transliteration, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_26.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Anonymous traditional Palestinian lullaby; Dalman, Palästinischer Diwan, Leipzig 1901. Basis: songs/song_26.rights.md", "2026 shani: Arabic-script rendering of the transliteration, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_27: the transliterated witness is public domain; the .txt is the
+# developer's Arabic-script rendering of it (that layer waived under CC0 1.0).
+[[annotations]]
+path = "songs/song_27.translit.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): Anonymous traditional Palestinian love song; Stephan, JPOS 2 (1922). Basis: songs/song_27.rights.md (the collector's transliteration, verbatim)"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+[[annotations]]
+path = "songs/song_27.txt"
+precedence = "override"
+SPDX-FileCopyrightText = ["Public domain, no rights claimed (Tier 0): Anonymous traditional Palestinian love song; Stephan, JPOS 2 (1922). Basis: songs/song_27.rights.md", "2026 shani: Arabic-script rendering of the transliteration, waived under CC0 1.0"]
+SPDX-License-Identifier = "LicenseRef-PublicDomain AND CC0-1.0"
+
+# song_28
+[[annotations]]
+path = "songs/song_28.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Public domain, no rights claimed (Tier 0): ʿAbd al-Wahhāb ibn Yūsuf, otherwise unidentified; Bouriant, Paris 1893. Basis: songs/song_28.rights.md"
+SPDX-License-Identifier = "LicenseRef-PublicDomain"
+
+# Tier L by the author's dedication.
+[[annotations]]
+path = "songs/song_29.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Tom Lehrer (1928-2025), words (Pollution); released into the public domain by the author (2020-10; disclaimer 2022-11-26). Attribution as a courtesy"
+SPDX-License-Identifier = "LicenseRef-Lehrer-PD-Dedication"
+
+[[annotations]]
+path = "songs/song_30.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Tom Lehrer (1928-2025), words (The Elements, with the 2020 addendum); released into the public domain by the author (2020-10; disclaimer 2022-11-26). Attribution as a courtesy"
+SPDX-License-Identifier = "LicenseRef-Lehrer-PD-Dedication"
+
+[[annotations]]
+path = "songs/song_31.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Tom Lehrer (1928-2025), words (Te Amo); released into the public domain by the author (2020-10; disclaimer 2022-11-26). Attribution as a courtesy"
+SPDX-License-Identifier = "LicenseRef-Lehrer-PD-Dedication"
+
+# Tier L under CC BY-SA 4.0: the attribution is each record's release: field.
+# No additional terms of any kind apply to these two files.
+[[annotations]]
+path = "songs/song_32.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "奥村悦夫 (words) / Toach japan (music), CC BY-SA 4.0, via Wikimedia Commons, File:The tent village declaration.wav"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = "songs/song_33.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "Toach japan, CC BY-SA 4.0, via Wikimedia Commons, File:The anthem of the raft race in NantouChyou.wav"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Tier L by the rights holder's grant.
+[[annotations]]
+path = "songs/song_34.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "作詞 みきれちゃん / ・・・・・・・・・, dots.tokyo/PD/; rights holder's public-domain grant of 2019-04-12. Attribution as a courtesy"
+SPDX-License-Identifier = "LicenseRef-dotstokyo-PD-Grant"
+
+[[annotations]]
+path = "songs/song_35.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "作詞 みきれちゃん / ・・・・・・・・・, dots.tokyo/PD/; rights holder's public-domain grant of 2019-04-12. Attribution as a courtesy"
+SPDX-License-Identifier = "LicenseRef-dotstokyo-PD-Grant"
+
+# The song_32 and song_33 records quote short passages of their CC BY-SA texts.
+[[annotations]]
+path = "songs/song_32.rights.md"
+precedence = "override"
+SPDX-FileCopyrightText = ["2026 shani", "Quoted passages: 奥村悦夫 (words) / Toach japan (music), CC BY-SA 4.0, via Wikimedia Commons, File:The tent village declaration.wav"]
+SPDX-License-Identifier = "CC-BY-4.0 AND CC-BY-SA-4.0"
+
+[[annotations]]
+path = "songs/song_33.rights.md"
+precedence = "override"
+SPDX-FileCopyrightText = ["2026 shani", "Quoted passages: Toach japan, CC BY-SA 4.0, via Wikimedia Commons, File:The anthem of the raft race in NantouChyou.wav"]
+SPDX-License-Identifier = "CC-BY-4.0 AND CC-BY-SA-4.0"

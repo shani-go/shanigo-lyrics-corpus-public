@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you want to cite this corpus, consider the details below."
+type: dataset
+title: "Song lyrics corpus"
+abstract: >-
+  Thirty-four song-lyric texts in English, Spanish, Catalan, Japanese,
+  Mandarin Chinese and Arabic, each public domain or under a licence that
+  allows commercial use and redistribution, with a rights record for each.
+authors:
+  - name: shani
+date-released: 2026-10-14
+repository-code: "https://github.com/shani-go/shanigo-lyrics-corpus-public"
+keywords:
+  - lyrics
+  - corpus
+  - public domain
+  - multilingual

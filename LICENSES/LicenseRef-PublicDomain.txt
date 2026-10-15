@@ -1,0 +1,21 @@
+LicenseRef-PublicDomain — public-domain text, no rights claimed
+
+A file marked with this identifier holds a song text that, in the good-faith
+determination of the developer (shani; see LICENSE), is in the public domain in the United States, in
+its country of origin, and in every other country under every known term
+rule (Tier 0 of the release standard, README.md, "Jurisdiction tiers"). Its
+lyricist is anonymous or traditional, or died long enough ago that every
+copyright term has run.
+
+The developer claims no copyright or other right in the text and grants no
+licence, because none is needed. This is not a CC0 dedication or any other
+dedication: the developer does not own the work and cannot dedicate it.
+
+The basis for each file, with its evidence, is in that song's rights record
+(songs/song_<n>.rights.md). It is summarised in RIGHTS_LEDGER.md and in the
+file's copyright text in REUSE.toml. Regimes outside copyright that can bear
+on commercial use in particular countries (folklore laws, an edition layer)
+are described in NOTICE.md.
+
+The determination is not legal advice. Laws differ by country, and the
+records carry their evidence so that a reader can check it.

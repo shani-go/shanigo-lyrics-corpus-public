@@ -1,0 +1,24 @@
+LicenseRef-dotstokyo-PD-Grant — the dots.tokyo public-domain grant
+
+Applies to: songs/song_34.txt, songs/song_35.txt
+
+The idol group ・・・・・・・・・ (dotstokyo) published its recordings and
+lyrics as public domain on its own page, announced on 2019-04-12 by the
+group's management. The page lets anyone use the recordings and lyrics,
+including modified, secondary and commercial use, with no permission,
+reporting, payment or attribution. Its one request is that nobody impair
+their public-domain status by claiming exclusive rights in the unmodified
+material. A condition about choreography does not concern the lyrics. The
+operative Japanese wording is quoted verbatim in songs/song_34.rights.md
+(rights_basis:).
+
+  Grant:          https://dots.tokyo/PD/
+  Archived copy:  http://web.archive.org/web/20190415124804/https://dots.tokyo/PD/
+                  (2019-04-15, identical to the live page as read on
+                  2026-09-29)
+
+Japan does not recognise abandonment of copyright, so the grant operates
+there as an irrevocable, royalty-free permission rather than as a
+public-domain status. The grant is the management's, not signed by the
+individual lyricist; see the caveat in NOTICE.md. Attribution
+("作詞 みきれちゃん / ・・・・・・・・・, dots.tokyo/PD/") is given as a courtesy.
